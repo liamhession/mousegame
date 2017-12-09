@@ -1,0 +1,26 @@
+.mouse, #preview{
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 27px;
+  width: 17px;
+  z-index: 100;
+}
+
+.overlay {
+  position: relative;
+  margin: 54% 25%;
+  border-radius: 100%;
+  overflow: hidden;
+  height: 18%;
+  width: 30%;
+}
+
+.mouse{
+  background-image: url('images/cursor.png');
+}
+
+* {
+    cursor: none;
+}
+
